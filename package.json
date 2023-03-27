@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@blockly/block-plus-minus": "^4.0.12",
+    "blockly": "^9.2.1"
+  }
+}

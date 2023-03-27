@@ -1,3 +1,5 @@
+import Blockly from 'blockly';
+
 /* TODO: Change toolbox XML ID if necessary. Can export toolbox XML from Workspace Factory. */
 var toolbox = document.getElementById("javablocks");
 
