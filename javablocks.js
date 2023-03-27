@@ -1,5 +1,5 @@
 /* TODO: Change toolbox XML ID if necessary. Can export toolbox XML from Workspace Factory. */
-var toolbox = document.getElementById("toolbox");
+var toolbox = document.getElementById("javablocks");
 
 var options = { 
 	toolbox : toolbox, 
@@ -38,7 +38,7 @@ var workspace = Blockly.inject(options);
 /* Load Workspace Blocks from XML to workspace. Remove all code below if no blocks to load */
 
 /* TODO: Change workspace blocks XML ID if necessary. Can export workspace blocks XML from Workspace Factory. */
-var workspace = Blockly.inject(/* TODO: Add ID of div to inject Blockly into */, options);
+var workspace = Blockly.inject(javablocks, options);
 
 /* Load blocks to workspace. */
 Blockly.Xml.domToWorkspace(workspaceBlocks, workspace);
